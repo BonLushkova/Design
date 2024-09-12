@@ -1,0 +1,52 @@
+		html   {
+          padding: 100px;
+          background-image: url(bg_page.png);
+          background-color: LightBlue;
+        }
+        body		{
+           padding: 50px;
+           background: url(bg_page2.png) repeat-x;
+           background-color: LightGoldenRodYellow;
+		   margin: 0 auto; /*Вырвынивание элемента по центру родителя*/
+		   width: 80%; /*Размер в процентах от всего размера родительского элемента*/
+		   border-radius: 10px; /*Скругление углов*/
+		   box-shadow: -10px -10px 10px rgba(0,0,0,.5); /*Тень от элемента с параметрами положения, размытия и цвета*/
+		   
+        }
+        p {
+           padding: 20px;
+           color: DarkSlateBlue;
+           font-size: 18px;
+           font-family: "Pacifico", cursive;
+		   line-height: 150%
+		   mardin-left: 60px;
+           }
+           h2 { /*Задаём параметры заголовка второго уровня*/
+             font-family: "Pacifico", cursive;
+			 color: #323086;
+			 font-size: 3.2em;
+			 border-bottom: 2px black solid;
+			 padding: 0 0 2px 60px;
+			 margin: 0;
+			 background: url(head-icon.png) no-repeat 10px 25px;
+			 
+            } 
+			.intro {
+				color: rgb(40,40,40) ;
+				font-family: "Montserrat Alternates", sans-serif;
+				font-size: 1.2em;
+				margin-left: 0;
+				margin-bottom: 25px;
+			}
+			h1 {
+				text-align: center;
+			}
+
+
+
+
+
+
+
+
+
