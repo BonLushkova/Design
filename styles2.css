@@ -34,18 +34,20 @@ table {
 .main {
 	float: left;
 	width: 70%;
+	background: #64183F;
+	
 }
 .sidebar {
 	margin-left: 75%;
 	padding: 15px;
-	background: #E9F5FE;
+	background: #64183F;
 }
 
 body {
 	color: #B1967C;
 	font-family: "Playfair Display", serif;
 	padding-top: 115px;
-	background: #CDE6FF url(images/bg_body.png) repeat-x;
+	background: #CDE6FF url(images/v904.jfif) repeat-x;
 	max-width: 800px;
 	margin: 0 auto;
 }
