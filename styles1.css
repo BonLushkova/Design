@@ -14,7 +14,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
-	background-color: #E0FFFF;
 }
 ol { 
 	padding-left: 1.4em;
@@ -78,7 +77,6 @@ figure img {
 	border: 1px solid #666;
 	background-color: #FFF;
 	padding: 4px;
-	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
 }
 figcaption {
 	font-family: Arial, Helvetica, sans-serif;
@@ -87,10 +85,6 @@ figcaption {
 	margin: 10px 0 0 0;
 }
 figure {
-/*	float: left; */
-    display: inline-block;
-	vertical-align: top;
+	float: left;
 	width: 210px;
 	margin: 0 10px 10px 10px;
-}
-
