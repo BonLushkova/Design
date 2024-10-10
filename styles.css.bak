@@ -14,7 +14,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 }
 body {
 	line-height: 1.2;
-	background-color: Linen;
 }
 ol { 
 	padding-left: 1.4em;
@@ -30,67 +29,108 @@ table {
 } 
 /* конец кода сброса стилей браузера */
 
-body {
-	font-size: 62.5%;
-}
-.content {
-	margin-left: 15px;
-	margin-top: 15px;
-	border: 1px dashed #999;
-	border-right: none;
-	border-bottom: none;
-}
-p.caption {
-	font-size: 1.3em;
-	line-height: normal;
-	margin-bottom: 15px;
-}
-.gallery .figure p {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
-	text-align: center;
-	line-height: normal;
+.wrapper {
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+    overflow: hidden; /* выравнивание */
 }
 
+.main {
+	float: right;
+	width: 565px;
+	margin-right: 15px;
+	padding-top: 25px;
+}
 
-h1 {
-	font: normal 2.4em Verdana, Arial, Helvetica, sans-serif;
-	margin: 0;
-	border-bottom: 1px dashed #999;
-	padding: 5px 0 5px 8px;
-	color: #14556b;
-}
-p {
-	font: 1.6em/160% Georgia, "Times New Roman", Times, serif;
-	margin: 10px 8px;
-}
 .copyright {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
-	font-size: 1em;
-	text-transform: uppercase;
-	color: #666666;
-	margin-left: 0px;
-	padding-left: 8px;
-	border-top: 1px dashed #999;
 	clear: both;
+	font: bold 12px Tahoma, Geneva, sans-serif;
+	color: #F0E68C;
+	padding: 5px;
+  margin: 0 15px;
+	border: 1px dotted #98AFBE;
+  border-left: none;
+  border-right: none;
 }
-figure img {
-	border: 1px solid #666;
+
+
+.banner h1 {
+	font: normal 48px Georgia, "Times New Roman", Times, serif;
+	text-align: right;
+  color: #F0E68C;
+}
+
+.main h2 {
+	font: 24px Tahoma, Geneva, sans-serif;
+	margin-bottom: 15px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+.main p {
+	font: 14px Tahoma, Geneva, sans-serif;
+	color: #FFFFE0;
+	margin-bottom: 20px;
+	font-family: Tahoma, Geneva, sans-serif;
+}
+
+.announcement h2 {
+	font: italic bold normal 20px Georgia, "Times New Roman", Times, serif;
+	text-align: center;
+	color: #F0E68C;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 18px;
+}
+.announcement ul {
+	font: 14px Tahoma, Geneva, sans-serif;
+}
+
+/* пользовательские стили  */
+
+html {
+	height: 100%;
+    background: linear-gradient(220deg, transparent 0%, rgb(217,139,82) 100%),
+              linear-gradient(125deg, rgb(204,115,33) 0%, rgb(76,197,221) 25%, rgb(84,106,212) 60%, rgb(47,85,216) 100%);
+}
+.wrapper {
 	background-color: #FFF;
-	padding: 4px;
-	box-shadow: 2px 2px 4px rgba(0,0,0,.5);
+	background-image: url(images/main2.jpg);
+	background-position: left top;
+	background-repeat: no-repeat;
 }
-figcaption {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 1.1em;
-	line-height: normal;
-	margin: 10px 0 0 0;
+.banner {
+	margin-top: 48px;
 }
-figure {
-/*	float: left; */
-    display: inline-block;
-	vertical-align: top;
-	width: 210px;
-	margin: 0 10px 10px 10px;
+.announcement {
+	margin-top: 115px;
+	margin-right: 600px;
+	margin-left: 20px;
+	background: url(images/scroll_top.jpg) no-repeat center top,
+				url(images/scroll_bottom.jpg) no-repeat center bottom,
+				url(images/scroll_middle.jpg) repeat-y center top;
+	background-image: url(images/zzz3.png);
+	background-size: cover;
+	padding: 70px 0 60px 0;
 }
+.main h2 {
+	background-image: url(images/underline.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 7px;
+}
+.announcement li {
+	list-style: none;
+	background-image: url(images/bullet.png);
+	background-repeat: no-repeat;
+	padding-left: 25px;
+	margin-bottom: 10px;
+	background-position: 0 4px;
+	margin-left: 30px;
+	margin-right: 40px;
+}
+
+
+
+
+
 
