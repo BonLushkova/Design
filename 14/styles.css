@@ -156,9 +156,9 @@ header nav {
 footer {
 	position: fixed;
 	bottom: 0;
-	left: 0;
+	left: 1;
 	right: 0;
-	padding: 10px;
+	padding: 5px;
 	background-color: black;
 	color: white;
 }

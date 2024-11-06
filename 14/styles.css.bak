@@ -67,7 +67,7 @@ body {
 }
 header h1 {
 	font: 700 72px Titillium, Arial, sans-serif;
-	color: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+	color: rgb(34,193,195);
 	text-shadow: 0 0 5px white,
 	             3px 3px 5px rgba(0,0,0,.5);
 }
@@ -156,8 +156,8 @@ header nav {
 footer {
 	position: fixed;
 	bottom: 0;
-	left: 0;
-	right: 0;
+	left: 1;
+	right: 4;
 	padding: 10px;
 	background-color: black;
 	color: white;
